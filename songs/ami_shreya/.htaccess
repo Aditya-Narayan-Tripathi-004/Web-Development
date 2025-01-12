@@ -1,0 +1,9 @@
+# Enable directory listing
+Options +Indexes
+
+# Allow access to all files
+Order allow,deny
+Allow from all
+
+# Ensure mod_rewrite is enabled for further custom rules
+RewriteEngine On

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="css/right.css">
+    <link rel="stylesheet" href="css/left_top.css">
+    <link rel="stylesheet" href="css/left_bottom.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/playbar.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Days+One&display=swap" rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="top">
+                <img src="images/cross.svg" alt="cross" height="20px" class="invert cross">
+                <ul class="color_white" type="none">
+                    <li>
+                        <img src="images/logo.svg" alt="logo" class="invert" style="">
+                    </li>
+                    <li class="centre"><img src="images/home.svg" alt="home" height="70%" class="invert libheight">
+                        <p class="ul">Home</p>
+                    </li>
+                    <li class="centre"><img src="images/search.svg" alt="search" height="70%" class="invert gray">
+                        <p class="ul search">Search</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <div class="library">
+                    <div class="libleft">
+                        <img src="images/library.svg" alt="library" height="100%" class="invert gray">
+                        <p>
+                            Your Library
+                        </p>
+                    </div>
+                    <div class="libright">
+                        <img src="images/plus.svg" alt="plus" width="22em" class="invert gray">
+                    </div>
+                </div>
+                <div class="section">
+                    <ul>
+
+                    </ul>
+                </div>
+                <!-- <div class="section">
+                    <div class="playlist">
+                        <div class="create">
+                            <h2>
+                                Create Your First Playlist
+                            </h2>
+                            <h3>
+                                It's easy, we'll help you
+                            </h3>
+                            <button class="text-black bg-white bgwhite">Create Playlist</button>
+                        </div>
+                    </div>
+                    <div class="podcast">
+                        <div class="create">
+                            <h2>
+                                Let's find some podcasts to follow
+                            </h2>
+                            <h3>
+                                We'll keep you updated on new episodes
+                            </h3>
+                            <button class="text-black bg-white bgwhite">Browse Podcasts</button>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+
+
+        <div class="right">
+            <header>
+                <arrow>
+                    <img src="images/menu.svg" alt="back" height="23em" class="menu invert">
+                    <img src="images/left_arrow.svg" alt="back" height="20em" class="arrow">
+                    <img src="images/right_arrow.svg" alt="back" height="20em" class="arrow">
+                </arrow>
+                <log>
+                    <button class="text-grey bgblack hover:bg-black-800 ">Signup</button>
+                    <button class="text-black bg-white hover:bg-white-800 bgwhite">Log in</button>
+                </log>
+            </header>
+
+            <main>
+                <div class="spotifyplaylist">
+                    <h1>
+                        Spotify Playlists
+                    </h1>
+                    <div class="allplaylist">
+                        <!-- <div class="card" data-folder="film">
+                            <div class="coverimage">
+                                <img src="images/Screenshot 2024-06-12 100034.png" alt="coverimage" class="cover"
+                                    style="object-fit: fill;">
+                                <img src="images/play_button.svg" alt="play" class="play_button">
+                            </div>
+                            <div class="coverheading">
+                                Happy Beats
+                            </div>
+                            <p class="innercontent">
+                                Feel-good dance music!
+                            </p>
+                        </div> -->
+                       
+                        
+
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="playbar">
+            <img src="images/icons8-music-240.svg" alt="logo" class="fulllogo" width="350em" height="350em">
+            <div class="leftplay">
+                <div class="album">
+                    <img src="" alt=" ">
+                </div>
+                <div class="text">
+                    <div class="p">
+                    </div>
+                    <marquee></marquee>
+                </div>
+
+            </div>
+            <div class="middleplay">
+                <div class="topplay">
+
+                    <img src="images/shuffle.svg" class="invert grayall shuffle" height="50%" alt="shuffle">
+                    <img src="images/previous.svg" class="invert grayall previous" height="50%" alt="previous">
+                    <img src="images/play_button.svg" class="playme" height="50%" alt="play">
+                    <img src="images/next.svg" class="invert grayall next" height="50%" alt="next">
+                    <img src="images/repeat1.svg" class="invert grayall repeat" height="50%" alt="next">
+                    <!-- <img src="images/repeat1.svg" class="invert gray" height="50%" width="50em" alt="next" style="background-color:pink;"> -->
+                </div>
+                <div class="wholebottom">
+                    <div class="current"></div>
+                    <div class="bottomplay">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="duration"></div>
+                </div>
+
+            </div>
+            <div class="rightplay">
+                <img src="images/volume.svg" alt="volume" class="invert gray mut" width="20em" style="cursor:pointer">
+                <div class="volume">
+
+                    <div class="volumebar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <img src="images/fullscreen.svg" alt="fullscreen" class="invert grayall fullscreen" id="fullscreen-toggle"
+                    width="20em" style="cursor:pointer;margin-left:1em;">
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

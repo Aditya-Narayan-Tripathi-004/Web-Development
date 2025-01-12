@@ -1,0 +1,92 @@
+.invert {
+    filter: invert();
+    display: inline-block;
+}
+
+.left {
+    height: 100vh;
+    width: 23vw;
+    padding: auto 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    background-color: black;
+    box-sizing: border-box;
+    transform: translateX(0);
+    opacity: 1;
+    position: relative;
+}
+
+.top {
+    position: relative;
+    height: 25vh;
+    overflow:hidden;
+    overflow-y:auto;
+    padding: 1.8em;
+    background-color: #121212;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+.cross{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.bottom {
+    height: 72vh;
+    width: 23vw;
+    background-color: #121212;
+    border-radius: 1em;
+
+}
+
+div .left .top ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+div .left .top ul li {
+    display: flex;
+    /* align-items: center; */
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    height: 2.5em;
+    /* width: 1.8em; */
+    width: 100%;
+    color: white;
+}
+
+div .left .top ul li.centre {
+    align-items: center;
+}
+
+li:hover .ul {
+    text-decoration: underline;
+    color: white;
+}
+
+.ul {
+    align-self: center;
+}
+
+li:hover .gray,.grayall:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(5deg) brightness(102%) contrast(102%);
+}
+
+.gray,.grayall {
+    filter: invert(84%) sepia(0%) saturate(1737%) hue-rotate(138deg) brightness(84%) contrast(76%);
+}
+
+.search {
+    color: #a7a7a7;
+}
+
